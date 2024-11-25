@@ -269,7 +269,7 @@ const mealsTotalCost = calculateTotalCost("meals");
                                     <h1>Meals Selection</h1>
                                 </div>
 
-                                <div className="input-container venue_selection">
+                        
                                 <div className="input-container venue_selection">
     <label htmlFor="numberOfPeople"><h3>Number of People:</h3></label>
     <input type="number" className="input_box5" id="numberOfPeople" value={numberOfPeople}
@@ -301,7 +301,7 @@ const mealsTotalCost = calculateTotalCost("meals");
     <TotalCost totalCosts={ totalCosts } ItemsDisplay={() => <ItemsDisplay items={ items } />} />
 </div>
                     )
-                }
+
 
 
 
