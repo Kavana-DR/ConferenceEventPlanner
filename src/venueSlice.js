@@ -36,7 +36,7 @@ export const venueSlice = createSlice({
     },
   
   ],
-  reducers: {
+ reducers: {
    
     incrementQuantity: (state, action) => {
       const { payload: index } = action;
@@ -54,7 +54,3 @@ export const venueSlice = createSlice({
     },
   },
 });
-
-export const { incrementQuantity, decrementQuantity } = venueSlice.actions;
-
-export default venueSlice.reducer;
