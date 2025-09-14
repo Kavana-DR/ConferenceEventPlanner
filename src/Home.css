@@ -1,0 +1,40 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://cdn.pixabay.com/photo/2018/07/05/14/45/conference-3518465_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.home-container p {
+  font-size: 24px;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.start-button {
+  background-color: #EFC16B;
+  color: black;
+  border: none;
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #c1974a;
+}
