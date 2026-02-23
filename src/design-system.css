@@ -1,0 +1,59 @@
+/* Design System Variables */
+
+/* Colors */
+:root {
+  --color-primary: #133b6a;
+  --color-accent: #EFC16B;
+  --color-secondary: #5291D9;
+  --color-tertiary: #52D7D9;
+  --color-light: #f9f9f9;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #333333;
+  --color-link: #646cff;
+  --color-link-hover: #535bf2;
+  --color-dark-bg: #1a1a1a;
+  --color-overlay: rgba(51, 61, 80, 0.7);
+}
+
+/* Typography */
+:root {
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-size-h1: 3.2em;
+  --font-size-h2: 2.5em;
+  --font-size-large: 24px;
+  --font-size-medium: 20px;
+  --font-size-small: 16px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+
+/* Spacing */
+:root {
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 20px;
+  --spacing-lg: 30px;
+  --spacing-xl: 40px;
+  --spacing-xxl: 100px;
+}
+
+/* Border Radius */
+:root {
+  --border-radius-sm: 5px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 15px;
+}
+
+/* Shadows */
+:root {
+  --shadow-sm: 0 0 5px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Transitions */
+:root {
+  --transition-fast: 0.25s;
+  --transition-normal: 0.3s;
+}
